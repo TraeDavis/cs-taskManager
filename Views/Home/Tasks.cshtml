@@ -2,5 +2,79 @@
     ViewData["Title"] = "Tasks Page";
 }
 
-<h1 class="text-center">Page under construction</h1>
-<h3 class="text-center">Please check back later.</h3>
+@section Styles{
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+}
+
+@section Scripts{
+    <script src="/js/task.js"></script>
+    <script src="/js/app.js"></script>
+}
+<section id="list">
+
+              <div class="details-container">
+                <button id="btnDetails" class="btn btn-sm btn-dark">Hide Details</button>
+              </div>
+
+              <div id="task-list">
+                  <!-- Display tasks here -->
+              </div>
+
+            </section>
+
+            <section id="capture">
+                <div id="form-error">Please fill out all fields.</div>
+                <form id="myForm">
+
+                <div class="form-floating mb-3">
+                    <input disabled readonly type="text" class="form-control" id="Id" placeholder="Enter Id">
+                    <label for="floatingInput">ID</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="title" placeholder="Title">
+                    <label for="title">Title</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input type="datetime-local" class="form-control" id="date" placeholder="Date">
+                    <label class="form-label" for="date">Date/Time</label>
+                  </div>
+
+                  <div class="form-control mb-3">
+                    <label class="form-label" for="important">
+                      Mark Important: 
+                    </label>
+                    <i id="imp-star" class="far fa-star"></i>
+                  </div>
+                
+                  <select id="status" class="form-select mb-3">
+                    <option selected disabled>-- Select a Status --</option>
+                    <option value="1">Pending</option>
+                    <option value="2">In Progess</option>
+                    <option value="3">Blocked</option>
+                    <option value="4">Removed</option>
+                    <option value="5">Done</option>
+                  </select>
+
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="location" placeholder="Location">
+                    <label for="location">Location</label>
+                  </div>
+
+                  <div class="mb-3">
+                    <textarea class="form-control" id="taskInfo" rows="3" placeholder="Task Description"></textarea>
+                  </div>
+                  
+                    <label for="exampleColorInput" class="form-label color-label"> Choose Background-Color:</label>
+                        <input type="color" class="form-control form-control-color mb-3" id="colorInput" value="#f5f5f5" title="Choose your color">
+                
+
+                <div class="control">
+                    <button id="save-btn" class="btn btn-dark" type="button">Save Task</button>
+                </div>
+                </form>
+
+            </section>
+
