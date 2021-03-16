@@ -1,14 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
+using taskManager.Models;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace taskManager.Controllers
 {
     public class ApiController : Controller
     {
-        public ApiController()
+        private DataContext DbContext;
+
+        public ApiController(DataContext db)
         {
             // the constuctor
+            DbContext = db;
 
         }
+        
         [HttpGet]
         public IActionResult Test()
         {
@@ -19,13 +26,21 @@ namespace taskManager.Controllers
         [HttpGet]
         public IActionResult GetTask()
         {
-            return Json(null);
+            // read the database
+            var tasks = DbContext.Tasks.ToList();
+
+            return Json(tasks);
         }
 
         [HttpPost]
-        public IActionResult PostTask()
+        public IActionResult PostTask([FromBody] Task theTask)
         {
-            return Json(null);
+            //  send theTask to database
+            DbContext.Tasks.Add(theTask);
+            DbContext.SaveChanges();
+
+            // return the object
+            return Json(theTask);
         }
     }
 }

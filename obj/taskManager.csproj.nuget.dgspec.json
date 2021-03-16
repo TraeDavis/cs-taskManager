@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\taskManager.csproj": {}
+    "C:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\taskManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\taskManager.csproj": {
+    "C:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\taskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\taskManager.csproj",
+        "projectUniqueName": "C:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\taskManager.csproj",
         "projectName": "taskManager",
-        "projectPath": "C:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\taskManager.csproj",
+        "projectPath": "C:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\taskManager.csproj",
         "packagesPath": "C:\\Users\\Trae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\obj\\",
+        "outputPath": "C:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Trae\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,18 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

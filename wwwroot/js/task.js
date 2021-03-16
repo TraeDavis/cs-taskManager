@@ -1,6 +1,6 @@
 class Task {
 
-    constructor(id, title, important, dateTime, status, location, description, alertText) {
+    constructor(id, title, important, dateTime, status, location, description, color) {
         // this.id = id;
         this.title = title;
         this.important = important;
@@ -8,7 +8,7 @@ class Task {
         this.status = status;
         this.location = location;
         this.description = description;
-        this.alertText = alertText;
+        this.color = color;
 
         this.user = "Trae";
     }

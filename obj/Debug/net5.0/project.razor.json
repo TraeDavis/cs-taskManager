@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\taskManager.csproj",
+  "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\taskManager.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,48 +15603,48 @@
   "RootNamespace": "taskManager",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Home\\Tasks.cshtml",
-      "TargetPath": "Views\\Home\\Tasks.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Trae\\Desktop\\⠀\\FDSI107\\taskManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Home\\Tasks.cshtml",
+      "TargetPath": "Views\\Home\\Tasks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Trae\\Downloads\\taskManager-20210313T171100Z-001-20210316T000328Z-001\\taskManager-20210313T171100Z-001\\taskManager\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -84,7 +84,7 @@ function displayTask(task){
    
 
     // Create the syntax
-    let syntax = `<div class="new-task mb-3" style="background-color: ${task.alertText};"> 
+    let syntax = `<div class="new-task mb-3" style="background-color: ${task.color};"> 
     
                     <div onclick="" class="important-container">
                      <i id="test" class="${task.important} far fa-star"></i>
@@ -145,7 +145,7 @@ function deleteTaskServer(id){
 
     // create an ajax
     $.ajax({
-        url: serverUrl + "/tasks/" + id,
+        url: "/api/deleteTask/",
         type:"DELETE",
         // remove task from screen on success
         success: function(){
